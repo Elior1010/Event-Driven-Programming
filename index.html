@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Movement</title>
+    <style>
+        /* Style for the meme image to make it positionable anywhere on the screen */
+        #memeImage {
+            position: absolute;
+            width: 100px; /* Adjust the width of the image as necessary */
+        }
+
+        /* Basic styling for buttons to improve usability */
+        button {
+            margin: 10px;
+            padding: 10px;
+        }
+
+        /* Creative element: Background color for the page */
+        body {
+            background-color: #f0f0f0; /* Light grey, providing a neutral backdrop */
+        }
+    </style>
+</head>
+<body>
+    <!-- Personal comment to mark the work -->
+    <!-- Page designed by [Your Name Here] -->
+
+    <!-- Meme image element; ensure the 'src' path is correctly set to display your chosen image -->
+    <img id="memeImage" src="path/to/your/meme.jpg" alt="Meme Image">
+
+    <!-- Button to start moving the meme around the page -->
+    <button id="startBtn">Start</button>
+    <!-- Button to stop the meme's movement; initially disabled until start is activated -->
+    <button id="stopBtn" disabled>Stop</button>
+
+    <!-- Link to the JavaScript file that contains the logic for meme movement and button control -->
+    <script src="script.js"></script>
+</body>
+</html>
